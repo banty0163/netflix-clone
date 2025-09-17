@@ -1,12 +1,41 @@
-# React + Vite
+# Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive Netflix clone built with **React.js**, **Vite**, **Tailwind CSS**, and **TMDB API** for fetching movie and TV show data. The project replicates the Netflix UI and allows browsing movies by category, viewing popular titles, and navigating to individual movie detail pages.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+[Netflix Clone Live](https://netflix-clone-ithl11ife-banty-kumars-projects.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> **Note:** This website works on a VPN network due to **TMDB API region restrictions**. Without a VPN, the API requests may not return data in certain regions (like India).
+
+---
+
+## 🛠 Features
+
+- Browse movies by category (Now Playing, Popular, etc.)  
+- Responsive design compatible with mobile, tablet, and desktop  
+- Smooth horizontal scroll for movie cards  
+- Movie detail navigation using React Router  
+- Tailwind CSS for styling and responsive layouts  
+
+---
+
+## 💻 Technologies Used
+
+- **React.js** – Frontend library  
+- **Vite** – Build tool for fast development  
+- **Tailwind CSS** – Utility-first CSS framework  
+- **TMDB API** – Fetching movie and TV show data  
+- **React Router** – For routing between pages  
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/netflix-clone.git
+cd netflix-clone
