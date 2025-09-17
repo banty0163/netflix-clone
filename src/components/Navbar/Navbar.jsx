@@ -59,18 +59,44 @@ const Navbar = () => {
                 <p>Children</p>
                 <img src={bell_icon} alt="Notifications" className="w-[20px] cursor-pointer" />
 
-                <div className="relative group flex items-center gap-2">
+                {/* <div className="relative group flex items-center gap-1">
                     <img src={profile_img} alt="Profile" className="w-[32px] border rounded-md cursor-pointer" />
                     <img src={caret_icon} alt="Dropdown" className="w-[14px] cursor-pointer" />
-                    <div className="absolute top-full right-0 mt-1 group-hover:block hidden bg-black text-white text-sm p-2 rounded-md shadow-lg">
+                    <div className="absolute top-8 right-0  group-hover:block hidden bg-black text-white text-sm h-[20px] rounded-md shadow-lg">
                         <p
-                            className="cursor-pointer hover:underline"
+                            className="cursor-pointer "
+                            onClick={() => logout()}
+                        >
+                            Sign Out of Netflix
+                        </p>
+                    </div>
+                </div> */}
+
+                <div className="relative group flex items-center gap-1">
+                    <img
+                        src={profile_img}
+                        alt="Profile"
+                        className="w-[32px] border rounded-md cursor-pointer"
+                    />
+                    <img
+                        src={caret_icon}
+                        alt="Dropdown"
+                        className="w-[14px] cursor-pointer"
+                    />
+
+                    <div
+                        className="absolute top-8 right-0 hidden group-hover:block bg-black text-white text-sm rounded-md shadow-lg 
+               transition-opacity duration-300 delay-200 opacity-0 group-hover:opacity-100"
+                    >
+                        <p
+                            className="cursor-pointer w-40 text-center p-3 hover:underline "
                             onClick={() => logout()}
                         >
                             Sign Out of Netflix
                         </p>
                     </div>
                 </div>
+
             </div>
 
             {/* Hamburger Menu (Mobile) */}
