@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
 
             {/* Footer Links */}
-            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 text-sm">
+            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 text-sm ">
                 <li className="hover:underline cursor-pointer">Audio Description</li>
                 <li className="hover:underline cursor-pointer">Help Center</li>
                 <li className="hover:underline cursor-pointer">Gift Cards</li>

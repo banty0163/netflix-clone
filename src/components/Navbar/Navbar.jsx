@@ -59,18 +59,6 @@ const Navbar = () => {
                 <p>Children</p>
                 <img src={bell_icon} alt="Notifications" className="w-[20px] cursor-pointer" />
 
-                {/* <div className="relative group flex items-center gap-1">
-                    <img src={profile_img} alt="Profile" className="w-[32px] border rounded-md cursor-pointer" />
-                    <img src={caret_icon} alt="Dropdown" className="w-[14px] cursor-pointer" />
-                    <div className="absolute top-8 right-0  group-hover:block hidden bg-black text-white text-sm h-[20px] rounded-md shadow-lg">
-                        <p
-                            className="cursor-pointer "
-                            onClick={() => logout()}
-                        >
-                            Sign Out of Netflix
-                        </p>
-                    </div>
-                </div> */}
 
                 <div className="relative group flex items-center gap-1">
                     <img
@@ -124,6 +112,8 @@ const Navbar = () => {
                     >
                         🚪 Sign Out
                     </p>
+
+
                 </div>
             )}
         </nav>
@@ -131,3 +121,6 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+
