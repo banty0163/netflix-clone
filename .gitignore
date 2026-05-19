@@ -1,3 +1,8 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
 # Logs
 logs
 *.log
@@ -6,11 +11,16 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-.env
 
+# Dependencies
 node_modules
+
+# Build folders
 dist
 dist-ssr
+build
+
+# Local files
 *.local
 
 # Editor directories and files
